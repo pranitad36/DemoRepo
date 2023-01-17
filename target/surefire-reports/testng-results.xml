@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-09T15:07:49 IST" name="Surefire suite" finished-at="2022-11-09T15:08:27 IST" duration-ms="37515">
+    <groups>
+      <group name="Search">
+        <method signature="TestNGBasics.EnterSearchText()[pri:3, instance:DEMO.Selenium.TestNGBasics@29647f75]" name="EnterSearchText" class="DEMO.Selenium.TestNGBasics"/>
+        <method signature="TestNGBasics.ClickSearch()[pri:4, instance:DEMO.Selenium.TestNGBasics@29647f75]" name="ClickSearch" class="DEMO.Selenium.TestNGBasics"/>
+      </group> <!-- Search -->
+      <group name="Title">
+        <method signature="TestNGBasics.GoogleTitleTest()[pri:1, instance:DEMO.Selenium.TestNGBasics@29647f75]" name="GoogleTitleTest" class="DEMO.Selenium.TestNGBasics"/>
+      </group> <!-- Title -->
+      <group name="Logo">
+        <method signature="TestNGBasics.GoogleLogoTest()[pri:2, instance:DEMO.Selenium.TestNGBasics@29647f75]" name="GoogleLogoTest" class="DEMO.Selenium.TestNGBasics"/>
+      </group> <!-- Logo -->
+    </groups>
+    <test started-at="2022-11-09T15:07:49 IST" name="Surefire test" finished-at="2022-11-09T15:08:27 IST" duration-ms="37515">
+      <class name="DEMO.Selenium.TestNGBasics">
+        <test-method is-config="true" signature="SetUP()[pri:0, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:07:49 IST" name="SetUP" finished-at="2022-11-09T15:07:49 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUP -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:07:49 IST" name="Login" finished-at="2022-11-09T15:07:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="LaunchChrome()[pri:0, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:07:49 IST" name="LaunchChrome" finished-at="2022-11-09T15:07:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchChrome -->
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:07:49 IST" name="LaunchURL" finished-at="2022-11-09T15:08:02 IST" duration-ms="13035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="GoogleTitleTest()[pri:1, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:08:02 IST" name="GoogleTitleTest" finished-at="2022-11-09T15:08:02 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleTitleTest -->
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:08:02 IST" name="LogOut" finished-at="2022-11-09T15:08:02 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:08:02 IST" name="LaunchURL" finished-at="2022-11-09T15:08:12 IST" duration-ms="9385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="GoogleLogoTest()[pri:2, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:08:12 IST" name="GoogleLogoTest" finished-at="2022-11-09T15:08:12 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleLogoTest -->
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:08:12 IST" name="LogOut" finished-at="2022-11-09T15:08:12 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:08:12 IST" name="LaunchURL" finished-at="2022-11-09T15:08:19 IST" duration-ms="6978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="EnterSearchText()[pri:3, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:08:19 IST" name="EnterSearchText" finished-at="2022-11-09T15:08:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSearchText -->
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:08:19 IST" name="LogOut" finished-at="2022-11-09T15:08:19 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:08:19 IST" name="LaunchURL" finished-at="2022-11-09T15:08:26 IST" duration-ms="7150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="ClickSearch()[pri:4, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:08:26 IST" name="ClickSearch" finished-at="2022-11-09T15:08:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSearch -->
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:08:26 IST" name="LogOut" finished-at="2022-11-09T15:08:27 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:08:27 IST" name="CloseBrowser" finished-at="2022-11-09T15:08:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="DeleteCookies()[pri:0, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:08:27 IST" name="DeleteCookies" finished-at="2022-11-09T15:08:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCookies -->
+        <test-method is-config="true" signature="GenerateTestReport()[pri:0, instance:DEMO.Selenium.TestNGBasics@29647f75]" started-at="2022-11-09T15:08:27 IST" name="GenerateTestReport" finished-at="2022-11-09T15:08:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateTestReport -->
+      </class> <!-- DEMO.Selenium.TestNGBasics -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
